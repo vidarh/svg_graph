@@ -392,8 +392,10 @@ module SVG
         @border_right = 7
         if key and key_position == :right
           val = keys.max { |a,b| a.length <=> b.length }
-          @border_right += val.length * key_font_size * 0.6 
-          @border_right += KEY_BOX_SIZE
+          if val
+            @border_right += val.length * key_font_size * 0.6
+            @border_right += KEY_BOX_SIZE
+          end
           @border_right += 10    # Some padding around the box
         end
       end
@@ -712,7 +714,7 @@ module SVG
           group = @root.add_element( "g" )
 
           key_count = 0
-          for key_name in keys
+          keys.compact.each do |key_name|
             y_offset = (KEY_BOX_SIZE * key_count) + (key_count * 5)
             group.add_element( "rect", {
               "x" => 0.to_s,
