@@ -372,7 +372,7 @@ module SVG
           y_label_font_size :
           get_y_labels.max{|a,b| 
             a.to_s.length<=>b.to_s.length
-          }.to_s.length * y_label_font_size * 0.6
+          }.to_s.length * y_label_font_size * 0.5
         @border_left += max_y_label_height_px if show_y_labels
         @border_left += max_y_label_height_px + 10 if stagger_y_labels
         @border_left += y_title_font_size + 5 if show_y_title
