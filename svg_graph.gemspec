@@ -4,12 +4,12 @@ require "svg_graph/version"
 
 Gem::Specification.new do |s|
   s.name        = "svg_graph"
-  s.version     = SvgGraph::VERSION
-  s.authors     = ["Vidar Hokstad"]
+  s.version     = SVG::Graph::VERSION
+  s.authors     = ["Sean Russell", "Vidar Hokstad"]
   s.email       = ["vidar@hokstad.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{SVG::GRaph is a pure Ruby library for generating SVG charts}
+  s.description = %q{}
 
   s.rubyforge_project = "svg_graph"
 

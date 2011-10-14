@@ -9,8 +9,6 @@ require 'rexml/document'
 
 module SVG
   module Graph
-    VERSION = '@ANT_VERSION@'
-
     # === Base object for generating SVG Graphs
     # 
     # == Synopsis

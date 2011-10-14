@@ -1,14 +1,11 @@
 
-require 'SVG/Graph/Bar'
-require 'SVG/Graph/BarHorizontal'
-require 'SVG/Graph/Graph'
-require 'SVG/Graph/Line'
-require 'SVG/Graph/Pie'
-require 'SVG/Graph/Plot'
-require 'SVG/Graph/Schedule'
-require 'SVG/Graph/TimeSeries'
+require 'svg_graph/BarHorizontal'
+require 'svg_graph/Graph'
+require 'svg_graph/Line'
+require 'svg_graph/Pie'
+require 'svg_graph/Plot'
+require 'svg_graph/Schedule'
+require 'svg_graph/TimeSeries'
+require 'svg_graph/version'
 
-
-
-
-
+SvgGraph = SVG::Graph

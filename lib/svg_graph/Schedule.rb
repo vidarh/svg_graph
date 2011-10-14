@@ -1,4 +1,4 @@
-require 'SVG/Graph/Plot'
+require 'svg_graph/Plot'
 require 'parsedate'
 
 module SVG
