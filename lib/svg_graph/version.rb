@@ -1,3 +1,6 @@
-module SvgGraph
-  VERSION = "0.0.1"
+
+module SVG
+  module Graph
+    VERSION = "0.7"
+  end
 end
